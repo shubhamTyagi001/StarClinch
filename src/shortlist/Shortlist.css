@@ -1,0 +1,64 @@
+.singer {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.medium2 {
+  font-size: 1.4rem;
+}
+
+.details_div {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+}
+.mediumHeading {
+  font-size: 1.6rem;
+}
+
+.smallHeading {
+  font-size: 1.2rem;
+}
+
+.details_div > div {
+  width: 150px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.budget_tag {
+  color: #fff;
+  background-color: #000;
+  border-radius: 10px;
+  padding: 10px;
+  height: 60px;
+}
+.details_div > div > * {
+  margin-bottom: 7px;
+}
+
+.textmaxwidth {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.SingersHeading1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .details_div {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 12px;
+  }
+  .textmaxwidth {
+    max-width: 250px;
+  }
+}

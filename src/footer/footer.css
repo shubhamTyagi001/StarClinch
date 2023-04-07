@@ -1,0 +1,120 @@
+.maxwidth {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.FooterLogoDiv {
+  width: 175px;
+  margin-bottom: 2rem;
+  padding: 10px;
+}
+.Footerlogo {
+  align-items: center;
+  gap: 4px;
+  display: flex;
+}
+.Footerlogo > img {
+  width: 50px;
+}
+/* .img1 {
+  vertical-align: middle;
+  height: 50px;
+  width: 50px;
+} */
+
+.Footerlogo > p {
+  font-size: 1.9rem;
+}
+.lar {
+  color: #000000;
+  font-size: 1.9rem;
+  padding-top: 0.8rem;
+  font-family: Montserrat, sans-serif;
+}
+
+.foooterSocialMedia {
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+  top: 2px;
+  right: -55px;
+}
+
+.foooterSocialMedia > * {
+  cursor: pointer;
+}
+
+.FooterParentDiv {
+  display: flex;
+  /* flex-direction: row; */
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.link_div {
+  width: 50%;
+  justify-content: space-between;
+  display: flex;
+}
+
+.footerHeading {
+  margin-bottom: 4px;
+  color: black;
+}
+.links {
+  margin-bottom: 1.4rem;
+}
+
+.small {
+  color: rgb(24, 188, 156);
+}
+
+.links > p {
+  cursor: pointer;
+  padding-top: 5px;
+}
+.adress_div {
+  width: 50%;
+  justify-content: space-around;
+  display: flex;
+}
+
+.contact {
+  color: rgb(24, 188, 156);
+}
+
+.paymentd {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+}
+.PaymentImage {
+  width: 90%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .medium {
+    font-size: 1.1rem;
+  }
+  .FooterParentdiv {
+    flex-direction: column;
+  }
+  .link_div {
+    width: 100%;
+  }
+  .adress_div {
+    width: 100%;
+    justify-content: left;
+  }
+
+  .PaymentImage {
+    width: 320px;
+  }
+}
